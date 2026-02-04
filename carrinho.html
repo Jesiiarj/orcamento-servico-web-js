@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho - Olivia's Pet</title>
+  <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+
+  <main class="page">
+    <h1 class="title">CARRINHO DE COMPRAS</h1>
+
+    <section class="cart-box">
+      <div class="cart-head">
+        <div>PRODUTO</div>
+        <div>PREÇO UNITÁRIO</div>
+        <div>QUANTIDADE</div>
+        <div>TOTAL</div>
+        <div>AÇÕES</div>
+      </div>
+
+      <div class="cart-row">
+        <div class="product">
+          <div class="thumb">
+            <img src="casinha.webp">
+          </div>
+          <div class="pname">Casinha quente para gato e cachorro</div>
+        </div>
+
+        <div class="unit">R$ 109,80</div>
+
+        <div class="qty">
+          <button class="qty-btn">−</button>
+          <span>1</span>
+          <button class="qty-btn">+</button>
+        </div>
+
+        <div class="rowtotal">R$ 109,80</div>
+
+        <div class="actions">
+          <button class="trash">🗑️</button>
+        </div>
+      </div>
+
+      <div class="cart-row">
+        <div class="product">
+          <div class="thumb">
+            <img src="granulado.webp">
+          </div>
+          <div class="pname">Granulado Sanitário Finotrato Bio</div>
+        </div>
+
+        <div class="unit">R$ 19,90</div>
+
+        <div class="qty">
+          <button class="qty-btn">−</button>
+          <span>1</span>
+          <button class="qty-btn">+</button>
+        </div>
+
+        <div class="rowtotal">R$ 19,90</div>
+
+        <div class="actions">
+          <button class="trash">🗑️</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom">
+      <div>
+        <div class="coupon">
+          <input type="text" placeholder="CUPOM DE DESCONTO">
+          <button>APLICAR</button>
+        </div>
+
+        <a class="back" href="pag_inicial.html">← Continuar comprando</a>
+      </div>
+
+      <aside class="summary">
+        <div class="sum-row">
+          <span>SUBTOTAL</span>
+          <strong>R$ 129,70</strong>
+        </div>
+
+        <div class="sum-row">
+          <span>FRETE</span>
+          <strong class="green">GRÁTIS</strong>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="sum-total">
+          <span>TOTAL DO PEDIDO</span>
+          <div class="big">R$ 129,70</div>
+        </div>
+
+        <button class="finish">FINALIZAR COMPRA</button>
+      </aside>
+    </section>
+  </main>
+
+</body>
+</html>
