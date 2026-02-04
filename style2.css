@@ -14,7 +14,6 @@ body {
     align-items: center;
 }
 
-/* O cartão central */
 .login-card {
     background-color: #F4F4F4;
     border: 2px solid #C28E79;
@@ -25,15 +24,16 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
-.logo-area {
+.logo{
     margin-bottom: 30px;
     display: flex;
+    flex-direction: column; /* <-- ISSO coloca um abaixo do outro */
     justify-content: center;
     align-items: center;
-    gap: 12px; /* espaço entre logo e texto */
+    gap: 15px; /* Espaço entre a bolinha da logo e o texto */
 }
 
-/* Área circular do logo */
+
 .logo-placeholder {
     width: 80px;
     height: 80px;
